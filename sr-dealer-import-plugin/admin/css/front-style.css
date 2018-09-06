@@ -1,0 +1,311 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.navbar-default .navbar-nav>li>a {
+	border-top: 3px solid transparent;
+	color: #5a5a5a;
+	font-size: 17px;
+	font-weight: 500;
+	padding: 25px;
+	transition: all 300ms ease 0s;
+}
+
+.header {
+	border-bottom: 1px solid #d3d3d3;
+	box-shadow: 0 0 12px 1px #cccccc;
+}
+
+.head-menus-lists {
+	float: right;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+	color: #4cc449;
+	text-decoration: none;
+	border-top: 3px solid #008064;
+	transition: all 300ms ease 0s;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover
+	{
+	color: #4cc449;
+	transition: all 300ms ease 0s;
+}
+
+.actv-menu {
+	color: #4cc449 !important;
+	border-top: 3px solid #008064 !important;
+	transition: all 300ms ease 0s !important;
+}
+
+.navbar {
+	border: medium none;
+	margin-bottom: 0;
+}
+
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.logo-block {
+	padding: 6px 0;
+}
+
+.mid-menus {
+	background-color: #5a5a5a;
+}
+
+.mid-menus-lists {
+	padding: 0 5%;
+	margin-bottom: 0;
+}
+
+.mid-menus-lists>li {
+	color: #ffffff;
+	display: inline-block;
+	padding: 0 6px;
+}
+
+.mid-menus-lists a {
+	color: #ffffff;
+	display: block;
+	font-size: 14px;
+	padding: 10px 0;
+	text-decoration: underline;
+}
+
+.text-1 {
+	color: #000000;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.text-2 {
+	color: #007f65;
+	float: right;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.block11 {
+	border-bottom: 3px double #ced7e0;
+	padding: 60px 0 15px;
+}
+
+.mid-content {
+	border-bottom: 1px solid #cdd6e0;
+	padding: 4% 0;
+}
+
+.main-content {
+	box-shadow: 0 0 3px 1px grey;
+}
+
+.photo-block-1 {
+	height: 288px;
+	width: 460px;
+	overflow: hidden;
+}
+
+.photo-block-1 img {
+	height: 100%;
+	width: 100%;
+}
+
+.photo-lists>li {
+	height: 90px;
+	overflow: hidden;
+	width: 140px;
+	display: inline-block;
+}
+
+.photo-lists {
+	margin-top: 16px;
+	padding-left: 0;
+}
+
+.photo-lists>li:nth-child(2) {
+	margin: 0 16px;
+}
+
+.text-5 {
+	color: #007f65;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.adress-content {
+	padding-left: 0;
+}
+
+.text-3 i {
+	color: #b2b2b2;
+	float: left;
+	width: 4%;
+	font-size: 15px;
+	vertical-align: middle;
+	padding-top: 3px;
+}
+
+.text-4 {
+	float: left;
+	font-size: 15px;
+	width: 94%;
+	vertical-align: middle;
+}
+
+.adress-content li {
+	list-style: outside none none;
+	padding: 7px 0;
+	vertical-align: middle;
+}
+
+.buton {
+	border: 2px solid #000000;
+	border-radius: 0;
+	font-size: 16px;
+	font-weight: 700;
+	padding: 7px 20px;
+	text-transform: uppercase;
+}
+
+.butn-box {
+	background-color: #fff;
+	border-bottom: 4px solid #8cc528;
+	display: inline-block;
+	margin-top: 12px;
+}
+
+.mid-block-1 {
+	padding: 0 5%;
+}
+
+.block11 {
+	border-bottom: 3px double #ced7e0;
+	padding: 60px 0 15px;
+}
+
+.block12 {
+	padding: 6% 0;
+}
+
+.text-6 {
+	color: #b2b2b2;
+	display: inline-block;
+	float: left;
+	font-size: 16px;
+	font-weight: 600;
+	vertical-align: middle;
+	width: 60%;
+}
+
+.mid-block-2 {
+	background-color: #f7f7f7;
+	border-bottom: 1px solid #b2b2b2;
+}
+
+.mid-block-2-inner {
+	padding: 5%;
+}
+
+.text-7 {
+	color: #000000;
+	display: inline-block;
+	float: left;
+	font-size: 16px;
+	font-weight: 500;
+	vertical-align: middle;
+	width: 39%;
+}
+
+.sale-content-lists>li {
+	display: inline-block;
+	width: 32%;
+}
+
+.sale-content-lists {
+	padding-left: 0;
+}
+
+.text-8 {
+	color: #b2b2b2;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.text-9 {
+	font-size: 15px;
+}
+
+.sale-content-lists-double>li {
+	display: inline-block;
+	width: 49%;
+}
+
+.sale-content-lists-double {
+	padding-left: 0;
+}
+
+.mid-block-4-inner {
+	border-bottom: 1px solid #b2b2b2;
+	margin: 0 5%;
+	padding: 4% 0;
+}
+
+.mid-block-3-inner {
+	border-bottom: 1px solid #b2b2b2;
+	margin: 0 5%;
+	padding: 4% 0;
+}
+
+.mid-block-5-inner {
+	margin: 0 5%;
+	padding: 4% 0;
+}
+
+.map-img {
+	width: 100%;
+}
+
+.text-11 {
+	color: #008065;
+	font-size: 22px;
+	font-weight: 500;
+	letter-spacing: 3px;
+	text-align: center;
+	text-transform: uppercase;
+	word-spacing: 20px;
+}
+
+.text-12 {
+	color: #b2b2b2;
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-align: center;
+	word-spacing: 10px;
+}
+
+.social-block {
+	margin: 3% 0;
+	padding-left: 0;
+	text-align: center;
+}
+
+.social-block>li {
+	display: inline-block;
+	margin: 0 15px;
+}
+
+.footer {
+	padding: 4% 0;
+}
+
+.text-10 {
+	color: #000000;
+	font-size: 15px;
+}

@@ -1,0 +1,78 @@
+.tablenav .actions {
+	overflow: visible !important;
+}
+
+.tablenav-pages-navspan, .tablenav-pages-navspan:after,
+	.tablenav-pages-navspan:before {
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+/* p.search-box { float: right; margin: 0; vertical-align: middle; width: 30%; } */
+.cpd_custom_filter .tt-query, .tt-hint {
+	padding: 3px;
+}
+
+#filter-by-date {
+	display: none
+}
+
+.wp-core-ui p .button {
+	vertical-align: top !important;
+}
+
+.cpd_custom_filter .twitter-typeahead {
+	width: auto !important;
+	margin-right: 3px;
+}
+
+#filter-by-date {
+	display: none
+}
+
+.modal {
+	text-align: center;
+	padding: 0 !important;
+}
+
+.modal:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -4px;
+}
+
+.modal-dialog {
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.city_typeahead_search, .county_typeahead_search,
+	.state_typeahead_search, .sales_date_range, .multiselect {
+	height: 28px;
+}
+
+.multiselect {
+	padding-top: 3px;
+}
+
+.cpd_custom_filter .btn-group {
+	margin-top: -3px;
+}
+
+.tablenav .bulkactions {
+	margin-top: -1px;
+	margin-right: -13px;
+}
+.sp-cont{
+	border: 1px solid #635b5b!important;
+	border-radius: 6px!important;
+	display: inline-block;
+	background-color: #dcd9d9;
+	padding: 2px 6px 2px 6px;
+}
+.dsp-btn{
+	top: 2px;
+	margin-left: 3px;
+}

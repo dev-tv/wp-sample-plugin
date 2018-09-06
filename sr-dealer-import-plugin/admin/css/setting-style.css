@@ -1,0 +1,210 @@
+.main-content {
+	margin-top: 20px;
+}
+
+.setting-header {
+	margin-top: 20px;
+}
+
+.property-label {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+}
+
+.nav-tabs>li, .nav-pills>li {
+	float: none;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	font-weight: bold;
+}
+
+.nav-tabs, .nav-pills {
+	text-align: center;
+}
+
+.insert-shortcode-cont {
+	position: fixed;
+	text-align: center;
+	float: left;
+}
+
+.insert-shortcode-conts { 
+	background-color: #aaa; 
+	border: 1px solid; 
+	border-radius: 3px; 
+	height: 615px;
+	overflow-x: hidden; 
+	padding: 2px; 
+}
+
+.button.insert-button.button-small {
+    font-size: 9.8px;
+    height: 31px;
+    line-height: 1.3;
+    padding: 2px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: pre-line;
+    width: 90px;
+}
+.insert-text { display: block; }
+.btn-box { margin: 0 auto; padding: 25px 0; text-align: center; }
+.shortcode-btnn { display:none; }
+.property-setting-btn {	background-color: #37907A; color: #fff; }
+.tablenav-pages-navspan, .tablenav-pages-navspan:after,
+	.tablenav-pages-navspan:before {
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+/*
+
+@media only screen and (min-width:1049px) {
+	.property-label-cont {
+		height: 422px;
+		line-height: 422px;
+		text-align: center;
+		width: 150px !important;
+	}
+}
+
+.property-label-cont {
+	text-align: center;
+}
+
+.property-setting-btn {
+	background-color: #37907A;
+	color: #fff;
+	
+}
+
+.submenu-cont ul {
+	width: 100%;
+	text-align: center;
+}
+
+.submenu-cont ul li {
+	display: inline-block;
+	text-align: center;
+}
+
+.setting-container {
+	width: 98%;
+}
+
+.template-row {
+	float: left;
+	width: 100%;
+}
+
+.template-row::after, .template-row::before {
+	content: " ";
+	display: table;
+}
+
+.insert-button {
+	margin-bottom: 3px !important;
+}
+
+.insert-lable {
+	margin-bottom: 10px;
+}
+
+.insert-shortcode-cont {
+	position: fixed;
+	text-align: center;
+	float: left;
+}
+
+*/
+.subsubsub {
+	font-size: 13px !important;
+}
+
+@media only screen and (min-width:320px) and (max-width:1100px){
+
+.shortcode-btnn { display:block; }
+.insert-shortcode-conts { background-color:#cccccc;border: 1px solid; float: left; overflow-y: scroll;
+ padding: 2px; position: fixed; right: 6px; text-align: center; top: 152px; width: 219px; z-index: 1 !important;    
+ height:100%; }
+.menu-icon { margin: 0 auto; }
+.shortcode-btnn .wp-person a:focus .gravatar, a:focus, a:focus .media-icon img { box-shadow: none; outline: 0 none; }
+.insert-shortcode-conts { display:none; }
+.insert-shortcode-cont { float: left; position: fixed; right: 8px; text-align: center; top: 110px; }
+.insert-lable { margin-bottom: 0; }
+.shortcode-btnn label { margin-bottom: 0; }
+.wp-editor-tools { z-index: 0; }
+.insert-text { color: #ffffff; font-size: 15px; }
+.button.insert-button.button-small { font-size: 11px; padding: 3px; }
+}
+
+@media only screen and (min-width:320px) and (max-width:550px){
+	 
+	 .insert-shortcode-conts { height:300px; }
+	 .button.insert-button.button-small { font-size: 9.8px; padding: 2px; width: 90px; }
+	 .nav.nav-tabs a { padding: 10px; }
+	 
+}
+	
+@media only screen and (min-width:767px) and (max-width:1100px){
+	
+	.insert-shortcode-conts { height:300px; }	
+	
+}
+
+@media only screen and (min-width:320px) and (max-width:550px) and  (orientation: landscape) {
+
+	 .insert-shortcode-conts { height:300px; }		
+	
+}
+
+@media only screen and (min-width:767px) and (max-width:1100px) and (orientation: landscape) {
+
+	 .insert-shortcode-conts { height:300px; }		
+	
+}
+
+i.shortcodes-icon {
+    background-image: url('shorcodes-icon.png');
+	background-size: 12px 20px;
+	background-repeat: no-repeat;
+}
+
+.jq-progress-bar {
+	/*width: 100px;*/
+	margin: 6px 6px 20px;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	line-height: 1.2;
+}
+
+.jq-progress-bar canvas {
+	vertical-align: top;
+}
+
+.jq-progress-bar strong {
+	position: absolute;
+	top: 30px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	line-height: 40px;
+	font-size: 30px;
+}
+
+.jq-progress-bar strong i {
+	font-style: normal;
+	font-size: 0.6em;
+	font-weight: normal;
+}
+
+.jq-progress-bar span {
+	display: block;
+	color: #aaa;
+	margin-top: 12px;
+}
+#export-progress{
+	display: none;
+}
