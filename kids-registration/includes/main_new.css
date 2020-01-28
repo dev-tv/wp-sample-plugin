@@ -1,0 +1,116 @@
+label {
+    line-height: 27px;
+    margin: 5px;
+    max-width: 268px !important;
+    padding-right: 30px;
+    width: 27px !important;
+}
+.form-input {
+    max-width: 301px !important;
+}
+
+.form-field {
+    margin: 13px;
+}
+
+label {
+    color: #060d13;
+    padding-right: 25px;
+}
+
+
+.main_text {
+    color: #060d13;
+    margin-left: 0;
+    margin-right: 28%;
+}
+
+/*default.css*/
+.main_text .head_page {
+    border-bottom: 2px solid #0c0d13;
+    color: #060d13;
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 16px 5px;
+}
+
+.main_text h3 {
+    color: #060d13;
+}
+.page_container{
+    background-color: #ededed !important;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="search"] {
+    float: right !important;
+    margin-bottom: 1px !important;
+    max-width: 300px !important;
+    min-height: 16px !important;
+    padding: 5px 0 !important;
+    width: 100% !important;
+}
+.gb {
+    color: #060d13;
+    font-size: 14px;
+    padding-left: 49%;
+    padding-right: 17px;
+}
+
+.gb1 {
+    font-size: 14px;
+    padding-right: 17px;
+    color: #060d13;
+}
+textarea {
+    float: right;
+    max-width: 300px !important;
+    overflow: auto;
+    padding-left: 6px !important;
+    vertical-align: top;
+    width: 50% !important;
+}
+.select_tab {
+    float: right;
+    margin-top: -44px;
+    width: 51%;
+}
+.select_tab1 {
+    line-height: 70px;
+}
+
+.photo5 {
+    float: left;
+
+    width: 270px;
+}
+.photo{     line-height: 38px !important;
+}
+.photo1{}
+.photo2{}
+.photo3{}
+.photo4{}
+
+.image_box {
+    width: 108%;
+    clear: both;
+    float: left;
+}
+.photo5 {
+    float: left;
+    width: 29%;
+}
+h2.head_pay {
+    font-size: 22px;
+    margin-bottom: 30px;
+    padding-left: 15px;
+}
+
+/*new class for select city*/
+.select_city {
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    margin-left: 90px;
+    min-width: 304px;
+    padding: 5px;
+}

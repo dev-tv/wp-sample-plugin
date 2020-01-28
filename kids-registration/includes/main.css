@@ -1,0 +1,200 @@
+/*label {
+    line-height: 27px;
+    margin: 5px;
+    max-width: 268px !important;
+    padding-right: 30px;
+    width: 27px !important;
+}
+.form-input {
+    max-width: 301px !important;
+}
+
+.form-field {
+    margin: 13px;
+}*/
+
+/*label {
+    color: #060d13;
+    padding-right: 25px;
+}
+*/
+/*.main_text {
+    margin-left: 3%;
+    margin-right: 40%;
+    color: #060d13;
+}*/
+
+/*.main_text .head_page {
+    border-bottom: 2px solid #0c0d13 !important;
+    color: #060d13 !important;
+    display: block !important;
+    font-size: 30px !important;
+    font-weight: bold !important;
+    padding: 16px 5px !important;
+}*/
+
+
+/*.main_text h3 {
+    color: #060d13;
+}
+.page_container{
+    background-color: #ededed !important;
+}
+*/
+input[type="text"], input[type="email"], input[type="password"], input[type="search"], input[type="url"], textarea {
+    /*float: right !important;*/
+    /*margin-bottom: 1px !important;*/
+    /*max-width: 300px !important;*/
+    /*min-height: 16px !important;*/
+    /*padding: 5px 0 !important;*/
+    /*width: 100% !important;*/
+    width: 100%;
+}
+select{
+    width: 95%;
+}
+input[type="checkbox"], input[type="radio"]{
+    width: 20px;
+    height: 20px;
+}
+.gb {
+    font-size: 14px;
+    /*padding-left: 33%;*/
+    padding-right: 17px;
+    color: #060d13;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: -15px;
+    margin-left: 5px;
+}
+
+textarea {
+    /*float: right;*/
+    /*max-width: 300px !important;*/
+    /*overflow: auto;*/
+    /*padding-left: 6px !important;*/
+    /*vertical-align: top;*/
+    /*width: 50%!important;*/
+}
+.select_tab {
+    /*float: right;*/
+    /*margin-top: -44px;*/
+    /*width: 51%;*/
+}
+.select_tab1 {
+    line-height: 70px;
+}
+
+/*new class for select state*/
+.select_tab.select_state select {
+    border: 1px solid #cccccc;
+    /*border-radius: 4px;*/
+    /*margin-left: 70px;*/
+    /*min-width: 300px;*/
+    /*padding: 10px;*/
+}
+
+.photo5 {
+    /*float: left;*/
+    /*width: 270px;*/
+}
+.photo{
+    line-height: 38px !important;
+}
+.photo1{}
+.photo2{}
+.photo3{}
+.photo4{}
+
+.image_box {
+    width: 108%;
+    clear: both;
+    float: left;
+}
+/*.photo5 {
+    float: left;
+    width: 29%;
+}*/
+h2.head_pay {
+    font-size: 22px;
+    margin-bottom: 30px;
+    padding-left: 15px;
+}
+
+
+/*new class for bottombuttons*/
+.form-field.marr {
+    margin: 20px 0;
+    text-align: center;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #e6e6e6 none repeat scroll 0 0;
+    border-color: #ccc #ccc #bbb;
+    border-image: none;
+    /*border-radius: 3px;*/
+    border-style: solid;
+    border-width: 1px;
+    /*box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset, 0 15px 17px rgba(255, 255, 255, 0.5) inset, 0 -5px 12px rgba(0, 0, 0, 0.05) inset;*/
+    color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 18px;;
+    padding: 10px 15px;
+    /*text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);*/
+}
+button, html input[type="reset"]{ 
+    background:#FFC94A !important;
+        color: #fff !important;
+    border: 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+button, html input[type="submit"]{ 
+    background:#4FA745!important;
+        color: #fff !important;
+    border: 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.demoInputBox1, .demoInputBox2, .demoInputBox3{
+    padding:10px; 
+    border:#F0F0F0 1px solid; 
+    border-radius:4px;
+    background-color:#FFF;
+    width: 100%;
+}
+#file_error1{color: #FF0000;}
+#file_error2{color: #FF0000;}
+#file_error3{color: #FF0000;}
+
+#reg_form .form-field {
+    margin-bottom: 10px;
+}
+.select_tab.select_state select {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+#reg_form {
+    padding: 15px;
+}
